@@ -1,8 +1,9 @@
 import '../style/Banner.css';
+import Logo from "../assets/BMW-Logo.png";
 
 function Banner(){
 	return<div className="banner">
-        <h1>ReactBMW MotorSport</h1>
+        <img src={Logo} alt="" className='logo'/><h1>ReactBMW MotorSport</h1>
     </div> 
 }
 
