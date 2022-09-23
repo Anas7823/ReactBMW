@@ -14,7 +14,20 @@ function Produit() {
 ]
 return(
     <div className='card_items'>
+        {Produit.map((produit, index) => (
+        <div className='item'>
+            
+            <div>
+               <img className='img-card' src={produit.image}/> 
+            </div>
 
+            <div className='body-card'>
+            <h1>{produit.name}</h1>
+            <p>{produit.commentaire}</p>
+            </div>
+
+        </div>
+        ))}
     </div>
 )
 }
