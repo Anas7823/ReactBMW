@@ -6,9 +6,14 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+
 }
 
 .logo{
     height: 50px;
     padding: 10px;
+}
+
+.ProduitNav{
+	padding-left: 87rem;
 }
