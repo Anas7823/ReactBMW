@@ -14,3 +14,8 @@ footer{
 .liste{
     list-style: none;
 }
+
+a{
+    text-decoration: none;
+    color: red;
+}

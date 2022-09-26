@@ -1,16 +1,16 @@
 import '../style/Produit.css';
-import C1 from "../assets/C1.png";
-import C5 from "../assets/C5.png";
+import M3 from "../assets/m3.jpg";
+import M5 from "../assets/m5.jpg";
 
 function Produit() {
     const Produit = 
-    [{name: 'C1 Miteuse',
+    [{name: 'M3 Miteuse',
     commentaire: "Avec ses 270cv et ses 250kg ce véhicule totalement homologé va vous satisfaire et vous donnera des sensations tel que celle d'un avion de chasse.",
-    image:C1,},
+    image:M3,},
 
-    {name: "C5 de l'abberance",
-    commentaire: "Plus lourde que la C1, la C5 Pack M sport + vous garantit une vitesse de pointe et accéleration digne de son nom, cependant à voir si le freinage assume le poids et la puissance.",
-    image:C5},
+    {name: "M5 de l'abberance",
+    commentaire: "Plus lourde que la M3, la M5 Pack M sport + vous garantit une vitesse de pointe et accéleration digne de son nom, cependant à voir si vos points ne disparaitrons pas plus vite que la voiture.",
+    image:M5},
 ]
 return(
     <div className='card_items'>
@@ -18,7 +18,7 @@ return(
         <div className='item'>
             
             <div>
-               <img className='img-card' src={produit.image}/> 
+               <img className='img-card' src={produit.image} alt=''/> 
             </div>
 
             <div className='body-card'>
