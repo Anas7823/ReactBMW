@@ -10,9 +10,12 @@ function Accueil(){
             <div className='services'>
                 <div className='service'>
                     <h3>Service 1</h3>
+                    Une liste de service sera disponible prochainement
+
                 </div>
                 <div className='service'>
-                <h3>Service 2</h3>
+                    <h3>Service 2</h3>
+                    Une liste de service sera disponible prochainement
                 </div>     
                 
             </div> 
