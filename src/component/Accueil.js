@@ -17,10 +17,9 @@ function Accueil(){
             
                 <div className='service'>
                     <h3>Création de prototypes</h3>
-                    <img class="img-service" src="https://upload.wikimedia.org/wikipedia/fr/5/5f/Cars_%28film%29_Logo.png" alt=""></img>
+                    <img class="img-service" src="https://www.ptfrenchcars.com/-_-/res/ad078b32-cb74-4f71-95be-f8372d29e128/images/files/ad078b32-cb74-4f71-95be-f8372d29e128/d3dd547e-2548-4e64-b99b-27496b0a98f9/256-256/0c489a1d219b91e66c571a8ae1b6278225990657" alt=""></img>
                 </div>     
             </div> 
-        
         </div>
 }
 

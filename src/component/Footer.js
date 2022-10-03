@@ -10,7 +10,7 @@ function Footer(){
             </h4>
             <ul className="liste">
                 <li> numéro : {numero}</li>
-                <li> site officiel: <a href={site}>IPSSI</a></li>
+                <li> site officiel: <a href={site}>Belek Belek la sorcière</a></li>
                 <li> all right reserved</li>
             </ul>
         </div>
