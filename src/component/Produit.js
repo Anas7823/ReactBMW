@@ -2,7 +2,10 @@ import '../style/Produit.css';
 import M3 from "../assets/m3.jpg";
 import M5 from "../assets/m5.jpg";
 
-function Produit() {
+
+
+function Produit(props) {
+  let theme= props.mode
     const Produit = 
     [{name: 'M3 Miteuse',
     commentaire: "Avec ses 270cv et ses 250kg ce véhicule totalement homologé va vous satisfaire et vous donnera des sensations tel que celle d'un avion de chasse.",
@@ -13,7 +16,7 @@ function Produit() {
     image:M5},
 ]
 return(
-    <div className='card_items'>
+    <div className={`card_items  ${theme}`}>
         {Produit.map((produit, index) => (
         <div className='item'>
             

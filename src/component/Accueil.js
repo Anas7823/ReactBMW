@@ -3,8 +3,9 @@ import Custom from "../assets/custom.png";
 import Prototype from "../assets/prototype.png";
 
 
-function Accueil(){
-    return <div className='contenue'>
+function Accueil(props){
+    let theme= props.mode
+    return <div className={`contenue ${theme}`}>
         
         <p><h1>Bienvenue sur le site de ReactBMW MotorSport</h1></p>        
             <p>

@@ -1,10 +1,11 @@
 import '../style/Footer.css';
 
-function Footer(){
+function Footer(props){
+    let theme= props.mode
     const numero = "06.12.34.56.78";
     const site = "https://ecole-ipssi.com";
     return <footer>
-        <div className="siteFooter">
+        <div className={` siteFooter ${theme}`}>
             <h4>
                 Compléments d'informations :
             </h4>
