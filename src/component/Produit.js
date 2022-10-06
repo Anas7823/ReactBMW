@@ -10,7 +10,7 @@ function Produit(props) {
   let theme= props.mode
     const Produit = 
     [{name: 'M3 drift',
-    commentaire: "Avec ses 270cv et ses 250kg ce véhicule totalement homologé va vous satisfaire et vous donnera des sensations tel que celle d'un avion de chasse.",
+    commentaire: "Avec ses 270cv et ses 250kg ce véhicule totalement homologué va vous satisfaire et vous donnera des sensations tel que celle d'un avion de chasse.",
     image:M3,
     path:'/M3-drift'},
 
@@ -36,7 +36,7 @@ return(
 
             <div className='body-card'>
                 <Link to={produit.path}>
-                    <h1>{produit.name}</h1>
+                    <h1 className='produitLien'>{produit.name}</h1>
                 </Link>
                 <p>{produit.commentaire}</p>
             </div>
