@@ -3,6 +3,8 @@ import Banner from './Banner';
 import Footer from './Footer';
 import Produit from './Produit';
 import Accueil from './Accueil';
+import M3drift from './M3drift';
+
 import { useState } from 'react';
 
 import {
@@ -27,6 +29,8 @@ function App() {
         <Route path="/" element={<Accueil mode={theme} />}>
         </Route>
         <Route path="/Produit" element={<Produit mode={theme}/>}>
+        </Route>
+        <Route path='/M3-drift' element={<M3drift mode={theme}/>}>
         </Route>
       </Routes>
       
