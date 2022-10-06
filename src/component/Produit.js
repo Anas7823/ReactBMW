@@ -33,11 +33,9 @@ return(
             <h1>{produit.name}</h1>
             <p>{produit.commentaire}</p>
             </div>
-
         </div>
         ))}
     </div>
-)
-}
+)}
 
 export default Produit;

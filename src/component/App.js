@@ -22,7 +22,7 @@ function App() {
     
     <div>
       <Banner mode={theme}/>
-      <button onClick={toggleTheme}>🌓</button>
+      <button class="mode" onClick={toggleTheme}>🌓</button>
       <Routes>
         <Route path="/" element={<Accueil mode={theme} />}>
         </Route>

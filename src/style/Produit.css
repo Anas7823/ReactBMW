@@ -1,6 +1,9 @@
+body{
+    overflow: hidden;
+}
 .card_items{
     display: flex;
-    padding-top: 2rem;
+    padding-top: 1rem;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
@@ -9,11 +12,10 @@
 
 .item{
     border: 1px solid rgb(255, 255, 255);
-    display: grid;
-    margin: auto;
+    display: list-item;
     padding: 5px;
     height: 100%;
-    width: 45%;
+    width: 50%;
     background-color: black;
     color: white;
 
