@@ -9,14 +9,13 @@ function Banner(props){
   let theme= props.mode
 	return<div className={` banner ${theme}`}>
         <Link to='/'>
-        <img src={Logo} alt="" className='logo'/>
+            <img src={Logo} alt="" className='logo'/>
         </Link>
         <h1>ReactBMW MotorSport</h1>
         <div className='ProduitNav'>
             <Link to='/Produit'>
-                <h4>Produit</h4>
+                <h4 className='elementNav'>Produit</h4>
             </Link>
-
         </div>
          
     </div> 

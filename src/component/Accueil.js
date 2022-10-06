@@ -20,7 +20,7 @@ function Accueil(props){
                 </div>
             
                 <div className='service'>
-                    <h3>Création de prototypes</h3>
+                    <h3>Vente de véhicule</h3>
                     <img class="img-service" src={Prototype} alt=""></img>
                 </div>     
             </div> 

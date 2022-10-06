@@ -4,7 +4,8 @@ import Footer from './Footer';
 import Produit from './Produit';
 import Accueil from './Accueil';
 import M3drift from './M3drift';
-
+import M5custom from './M5custom';
+import M3Touring from './M3touring'
 import { useState } from 'react';
 
 import {
@@ -31,6 +32,10 @@ function App() {
         <Route path="/Produit" element={<Produit mode={theme}/>}>
         </Route>
         <Route path='/M3-drift' element={<M3drift mode={theme}/>}>
+        </Route>
+        <Route path='/M5-custom' element={<M5custom mode={theme}/>}>
+        </Route>
+        <Route path='/M3-Touring' element={<M3Touring mode={theme}/>}>
         </Route>
       </Routes>
       
