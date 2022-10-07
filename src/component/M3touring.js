@@ -50,8 +50,7 @@ function M3Touring(props){
             <h1>Description:</h1>
             <div className='textDescription'>
                 <h3>
-                    Ce véhicule n'est pas disponible au grand public. Il sera
-                    en vente dès sa sortie
+                    
                 </h3>
             </div>
         </div>

@@ -7,12 +7,21 @@ import M3drift from './M3drift';
 import M5custom from './M5custom';
 import M3Touring from './M3touring'
 import { useState } from 'react';
+import m5face from "../assets/m5/bmw-m5-1.jpg";
+import m52 from "../assets/m5/bmw-m5-2.jpg";
+import m53 from "../assets/m5/bmw-m5-3.jpg";
+import m54 from "../assets/m5/bmw-m5-4.jpg";
+
+import m3Tface from "../assets/M3-Touring-scaled.jpeg";
+import none from "../assets/no-image/no-image.png";
 
 import {
   Routes,
   Route,
 } from "react-router-dom";
 function App() {
+
+  
   const [theme, setTheme] = useState('light');
   const toggleTheme = () => {
       if (theme === 'light') {
@@ -31,11 +40,7 @@ function App() {
         </Route>
         <Route path="/Produit" element={<Produit mode={theme}/>}>
         </Route>
-        <Route path='/M3-drift' element={<M3drift mode={theme}/>}>
-        </Route>
-        <Route path='/M5-custom' element={<M5custom mode={theme}/>}>
-        </Route>
-        <Route path='/M3-Touring' element={<M3Touring mode={theme}/>}>
+        <Route path='/Produit/:modele' element={<M3drift mode={theme}/>}>
         </Route>
       </Routes>
       

@@ -9,21 +9,28 @@ import M3Touring from "../assets/M3-Touring-scaled.jpeg";
 function Produit(props) {
   let theme= props.mode
     const Produit = 
-    [{name: 'M3 drift',
+    [{
+    name: 'M3 drift',
     commentaire: "Avec ses 270cv et ses 250kg ce véhicule totalement homologué va vous satisfaire et vous donnera des sensations tel que celle d'un avion de chasse.",
     image:M3,
-    path:'/M3-drift'},
+    modele: "M3",
+
+    },
 
     {name: "M5 Custom",
     commentaire: "Plus lourde que la M3, la M5 Pack M sport + vous garantit une vitesse de pointe et accéleration digne de son nom, cependant à voir si vos points ne disparaitrons pas plus vite que la voiture.",
     image:M5,
-    path:'/M5-custom'},
+    modele: "M5",
+
+    },
 
 
     {name: "M3 Touring",
     commentaire: "Prochainement...",
     image:M3Touring,
-    path:'/M3-Touring'},
+    modele: "M3T",
+
+    },
 ]
 return(
     <div className={`card_items  ${theme}`}>
@@ -35,7 +42,7 @@ return(
             </div>
 
             <div className='body-card'>
-                <Link to={produit.path}>
+                <Link to={"/produit/"+ produit.modele}>
                     <h1 className='produitLien'>{produit.name}</h1>
                 </Link>
                 <p>{produit.commentaire}</p>
