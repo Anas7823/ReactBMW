@@ -3,17 +3,9 @@ import Banner from './Banner';
 import Footer from './Footer';
 import Produit from './Produit';
 import Accueil from './Accueil';
-import M3drift from './M3drift';
-import M5custom from './M5custom';
-import M3Touring from './M3touring'
-import { useState } from 'react';
-import m5face from "../assets/m5/bmw-m5-1.jpg";
-import m52 from "../assets/m5/bmw-m5-2.jpg";
-import m53 from "../assets/m5/bmw-m5-3.jpg";
-import m54 from "../assets/m5/bmw-m5-4.jpg";
+import M3drift from './Page';
 
-import m3Tface from "../assets/M3-Touring-scaled.jpeg";
-import none from "../assets/no-image/no-image.png";
+import { useState } from 'react';
 
 import {
   Routes,
@@ -32,9 +24,9 @@ function App() {
     };
   return(
     
-    <div>
+    <div className={theme}>
       <Banner mode={theme}/>
-      <button class="mode" onClick={toggleTheme}>🌓</button>
+      <button class="mode" onClick={toggleTheme}>🌙</button>
       <Routes>
         <Route path="/" element={<Accueil mode={theme} />}>
         </Route>

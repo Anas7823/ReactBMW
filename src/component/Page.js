@@ -1,4 +1,4 @@
-import '../style/M3drift.css'
+import '../style/Page.css'
 import m3face from "../assets/m3/BMW-M3-E92-1.jpeg";
 import m32 from "../assets/m3/BMW-M3-E92-2.jpeg";
 import m33 from "../assets/m3/BMW-M3-E92-3.jpg";

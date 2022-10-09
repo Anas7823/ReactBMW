@@ -23,5 +23,18 @@ a{
 }
 
 .dark{
-	filter: invert(1);
+    background-color: #141414;
+}
+
+.banner.dark{
+    background-color: #000000;
+}
+
+.M3drift.dark{
+    color: white;
+    background-color: #141414;
+}
+
+.siteFooter.dark{
+    background-color: #000000;
 }
