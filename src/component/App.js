@@ -4,6 +4,8 @@ import Footer from './Footer';
 import Produit from './Produit';
 import Accueil from './Accueil';
 import M3drift from './Page';
+import Mentions from './Mentions';
+
 
 import { useState } from 'react';
 
@@ -11,6 +13,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+
 function App() {
 
   
@@ -27,13 +30,20 @@ function App() {
     <div className={theme}>
       <Banner mode={theme}/>
       <button class="mode" onClick={toggleTheme}>🌙</button>
+
       <Routes>
         <Route path="/" element={<Accueil mode={theme} />}>
         </Route>
+
         <Route path="/Produit" element={<Produit mode={theme}/>}>
         </Route>
+
         <Route path='/Produit/:modele' element={<M3drift mode={theme}/>}>
         </Route>
+
+        <Route path='/MentionsLegal' element={<Mentions mode={theme}/>}>
+        </Route>
+        
       </Routes>
       
       <Footer mode={theme}/>

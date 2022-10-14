@@ -1,4 +1,6 @@
 import '../style/Footer.css';
+import * as React from "react";
+import { Link } from "react-router-dom";
 
 function Footer(props){
     let theme= props.mode
@@ -12,7 +14,9 @@ function Footer(props){
             <ul className="liste">
                 <li> numéro : {numero}</li>
                 <li> site officiel: <a href={site} target="blank">Belek Belek la sorcière</a></li>
-                <li> all right reserved</li>
+                <Link to='/MentionsLegal'>
+                    <li> all right reserved</li>
+                </Link>
             </ul>
         </div>
     </footer>
