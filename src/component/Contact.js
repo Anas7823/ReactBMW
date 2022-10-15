@@ -3,7 +3,7 @@ import '../style/Contact.css';
 
 function Contact(props){
   let theme= props.mode
-	return<div className={` Contact ${theme}`}>
+	return<div className={`Contact ${theme}`}>
         <div className='Titre-contact'>
             <h1>Nous contacter:</h1>
         </div>
