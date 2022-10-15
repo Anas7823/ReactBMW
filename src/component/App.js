@@ -5,7 +5,7 @@ import Produit from './Produit';
 import Accueil from './Accueil';
 import M3drift from './Page';
 import Mentions from './Mentions';
-
+import Contact from './Contact';
 
 import { useState } from 'react';
 
@@ -42,6 +42,9 @@ function App() {
         </Route>
 
         <Route path='/MentionsLegal' element={<Mentions mode={theme}/>}>
+        </Route>
+        
+        <Route path='Contact' element={<Contact mode={theme}/>}>
         </Route>
         
       </Routes>

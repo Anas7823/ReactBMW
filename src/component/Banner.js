@@ -16,6 +16,9 @@ function Banner(props){
             <Link to='/Produit'>
                 <h4 className='elementNav'>Produit</h4>
             </Link>
+            <Link to='/Contact'>
+                <h4 className='elementNav'> Contact </h4>
+            </Link>
         </div>
          
     </div> 
