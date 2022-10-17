@@ -13,7 +13,7 @@ function Footer(props){
             </h4>
             <ul className="liste">
                 <li> numéro : {numero}</li>
-                <li> site officiel: <a href={site} target="blank">Belek Belek la sorcière</a></li>
+                <li> site officiel: <a href={site} target="blank">IPSSI</a></li>
                 <Link to='/MentionsLegal'>
                     <li> all right reserved</li>
                 </Link>
