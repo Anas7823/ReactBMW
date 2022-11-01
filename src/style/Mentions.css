@@ -1,11 +1,6 @@
-.mentions{
-    background: white;
-    color: black;
-}
-
 .mentions .dark{
-    background: black;
-    color: white;
+    background: #141414 !important;
+    color: white!important;
 }
 
 h1{

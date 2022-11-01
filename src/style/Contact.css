@@ -14,7 +14,6 @@
 .Element-contact{
     align-items: center;
     justify-content: center;
-    width: 100%;
     height: 10rem;
     display: flex;
     padding: 50px;
@@ -38,5 +37,5 @@
 
 .myFrame{
     height: 100%;
-    width: 100%;
+    width: 99.8%;
 }

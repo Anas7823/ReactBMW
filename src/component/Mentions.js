@@ -2,10 +2,7 @@ import '../style/Mentions.css';
 
 function Mentions(props){
     let theme= props.mode
-    return <footer>
-        <div className={` mentions ${theme}`}>
-
-            
+    return <div className={`mentions ${theme}`}> 
             <h1>Mentions légals</h1>
             <br></br>
             <p>Le site Internet ReactBMW Motorsport est édité par la société ReactBMW Motorsport SARL, dont le numéro SIRET est le : 000 000 000 00000.</p>
@@ -52,7 +49,6 @@ function Mentions(props){
 
 
         </div>
-    </footer>
 }
 
 export default Mentions;
