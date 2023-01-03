@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactBMW/static/css/main.e9b91eca.css",
-    "main.js": "/ReactBMW/static/js/main.5d71b233.js",
+    "main.js": "/ReactBMW/static/js/main.2dfcc1d9.js",
     "static/media/m3.jpg": "/ReactBMW/static/media/m3.c1e4a9084cbb60b7c86a.jpg",
     "static/media/bmw-m5-3.jpg": "/ReactBMW/static/media/bmw-m5-3.acbf643d1f5f6eb24ed9.jpg",
     "static/media/BMW-M3-E92-2.jpeg": "/ReactBMW/static/media/BMW-M3-E92-2.94ebd96ad18cea2a82b5.jpeg",
@@ -19,10 +19,10 @@
     "static/media/TEL.png": "/ReactBMW/static/media/TEL.378eb7871b019fbfd99b.png",
     "index.html": "/ReactBMW/index.html",
     "main.e9b91eca.css.map": "/ReactBMW/static/css/main.e9b91eca.css.map",
-    "main.5d71b233.js.map": "/ReactBMW/static/js/main.5d71b233.js.map"
+    "main.2dfcc1d9.js.map": "/ReactBMW/static/js/main.2dfcc1d9.js.map"
   },
   "entrypoints": [
     "static/css/main.e9b91eca.css",
-    "static/js/main.5d71b233.js"
+    "static/js/main.2dfcc1d9.js"
   ]
 }
