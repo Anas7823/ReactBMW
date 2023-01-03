@@ -2,7 +2,7 @@
   "name": "reactbmw",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anas7823.github.io/ReactBMW/" ,
+  "homepage": "https://anas7823.github.io/ReactBMW/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "dependencies": 
