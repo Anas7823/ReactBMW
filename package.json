@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://anas7823.github.io/ReactBMW/",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "dependencies": 
   {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
