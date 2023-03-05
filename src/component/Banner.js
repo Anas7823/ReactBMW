@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Banner(props){
   let theme= props.mode
 	return<div className={` banner ${theme}`}>
-        <Link to='/'>
+        <Link to='/Accueil'>
             <img src={Logo} alt="" className='logo'/>
         </Link>
         <h1>ReactBMW MotorSport</h1>
