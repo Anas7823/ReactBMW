@@ -55,7 +55,7 @@ function M3drift(props){
       <div>
       {voitures.map((voiture)=>(
         <div>
-        {voiture.modele == modele ?  <div className={` M3drift ${theme}`}>
+        {voiture.modele === modele ?  <div className={` M3drift ${theme}`}>
         <div className='contenueProduit'>
             <div className='photo'>
                  <div className=''>
@@ -76,14 +76,14 @@ function M3drift(props){
                 <h1>{voiture.prix}</h1>
 
                 <div className={voiture.etat}>
-                    <h4 className={voiture.stock}>{voiture.stock=='enStock' ? 'En Stock' : 'Pas De Stock'}</h4>
+                    <h4 className={voiture.stock}>{voiture.stock==='enStock' ? 'En Stock' : 'Pas de Stock'}</h4>
                 </div>
                 <br></br>
                 <hr></hr>
 
                 <div className='bouton'>
                     <button className='btn-commande'>
-                        <h3>{voiture.stock=='enStock' ? 'Commander' : 'Indisponible'}</h3>
+                        <h3>{voiture.stock==='enStock' ? 'Commander' : 'Indisponible'}</h3>
                     </button>
 
                     <button className='btn-devis'>
