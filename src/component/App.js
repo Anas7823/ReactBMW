@@ -32,7 +32,7 @@ function App() {
       <button class="mode" onClick={toggleTheme}>🌙</button>
 
       <Routes>
-        <Route path="/" element={<Accueil mode={theme} />}>
+        <Route path="/ReactBMW" element={<Accueil mode={theme} />}>
         </Route>
 
         <Route path="/Produit" element={<Produit mode={theme}/>}>
